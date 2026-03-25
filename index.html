@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acme Studio - Testing the Landing Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <a href="#" class="logo">Acme Studio</a>
+            <button class="menu-toggle" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="container">
+                <h1 class="hero-headline">Revolutionize Your Online Presence with Acme Studio</h1>
+                <p class="hero-tagline">Test tagline: Elevate your brand with cutting-edge design and seamless user experience.</p>
+                <div class="hero-cta-buttons">
+                    <a href="#features" class="btn btn-primary">Discover Features</a>
+                    <a href="#contact" class="btn btn-secondary">Get Started Now</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="features-section section-padding">
+            <div class="container">
+                <h2 class="section-title">Why Choose Acme Studio?</h2>
+                <div class="features-grid">
+                    <div class="feature-item">
+                        <i class="fas fa-palette feature-icon"></i>
+                        <h3>Stunning Design</h3>
+                        <p>Craft visually appealing and modern designs that capture your audience's attention.</p>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-mobile-alt feature-icon"></i>
+                        <h3>Fully Responsive</h3>
+                        <p>Your website will look flawless on any device, from desktops to smartphones.</p>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-rocket feature-icon"></i>
+                        <h3>Blazing Fast Performance</h3>
+                        <p>Optimized for speed, ensuring a smooth and enjoyable user experience for all.</p>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-headset feature-icon"></i>
+                        <h3>Dedicated Support</h3>
+                        <p>Our team is always ready to assist you with any questions or needs you might have.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="testimonials-section section-padding">
+            <div class="container">
+                <h2 class="section-title">What Our Clients Say</h2>
+                <div class="testimonials-grid">
+                    <div class="testimonial-item">
+                        <p class="testimonial-quote">"Acme Studio delivered beyond our expectations! The design is sleek, and the site performs beautifully across all devices. Truly professional service."</p>
+                        <p class="testimonial-author">- Jane Doe, Tech Solutions Inc.</p>
+                    </div>
+                    <div class="testimonial-item">
+                        <p class="testimonial-quote">"We've seen a significant increase in engagement since partnering with Acme Studio. Their attention to detail and responsiveness are unmatched."</p>
+                        <p class="testimonial-author">- John Smith, Creative Ventures</p>
+                    </div>
+                    <div class="testimonial-item">
+                        <p class="testimonial-quote">"From concept to launch, Acme Studio was a pleasure to work with. They transformed our ideas into a stunning and functional website."</p>
+                        <p class="testimonial-author">- Emily White, Global Innovations</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="cta-bottom" class="cta-bottom-section section-padding">
+            <div class="container">
+                <h2 class="section-title">Ready to Transform Your Online Presence?</h2>
+                <p>Don't wait! Let Acme Studio build the perfect digital foundation for your business.</p>
+                <a href="#contact" class="btn btn-primary btn-large">Request a Consultation</a>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section section-padding">
+            <div class="container">
+                <h2 class="section-title">Get in Touch</h2>
+                <p>We'd love to hear from you. Fill out the form below or reach out directly.</p>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="6" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                    <div id="form-status" class="form-status"></div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <p class="logo">Acme Studio</p>
+                    <p class="tagline">Test tagline</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#hero">Home</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Studio Lane, Design City</p>
+                    <p><i class="fas fa-envelope"></i> info@acmestudio.com</p>
+                    <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Acme Studio. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js" defer></script>
+</body>
+</html>
